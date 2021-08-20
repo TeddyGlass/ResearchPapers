@@ -1,15 +1,3 @@
-<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
-
-<script type="text/x-mathjax-config">
- MathJax.Hub.Config({
- tex2jax: {
- inlineMath: [['$', '$'] ],
- displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
- }
- });
-</script>
-
 # Abstract
 ![abstract](./imgs/abstract.png)
 
@@ -23,7 +11,7 @@
 * これを **最適化問題** と捉え, 定量的な欲求を最大化する分子を探すことがモチベーション.
 * しかし分子空間での最適化は, 以下の２つの理由から非常に困難
     * 探索空間が大きく, 離散的で非構造的である.
-    * これまでに合成された物質が約 $10^8$ 種類1であるのに対し, 薬のような分子の候補は $10^{23}$ 〜 $10^{60}$ 種類と推定されている.
+    * これまでに合成された物質が約 ![10^{8}](https://latex.codecogs.com/gif.latex?\10^{8}) 種類1であるのに対し, 薬のような分子の候補は ![10^{23}](https://latex.codecogs.com/gif.latex?\10^{23}) 〜 ![10^{60](https://latex.codecogs.com/gif.latex?\10^{60}) 種類と推定されている.
 * 離散的な最適化は勾配による探索空間のガイドができないので困難.
 * 連続性のある分子表現を用いるメリットは, 
     * ベクトル表現を修正してデコードすることで新しい化合物を自動的に生成できるため, **手作業による変異ルールが不要になる** ,
